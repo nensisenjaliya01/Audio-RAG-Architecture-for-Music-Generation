@@ -12,7 +12,9 @@ model = MusicGen.get_pretrained("facebook/musicgen-small")
 
 model.set_generation_params(duration=10)
 
-prompt = ["ambient relaxing piano melody"]
+user_prompt = input("Enter music prompt: ")
+
+prompt = [user_prompt]
 
 # generate music
 audio = model.generate(prompt)
