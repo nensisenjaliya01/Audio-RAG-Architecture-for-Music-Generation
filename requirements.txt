@@ -1,0 +1,11 @@
+librosa
+numpy
+pandas
+soundfile
+torchaudio
+torch
+faiss-cpu
+google-generativeai
+transformers
+audiocraft
+tqdm
